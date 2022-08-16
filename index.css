@@ -78,3 +78,22 @@ section {
     width: 680px;
     height: 510px;
 }
+
+.chat__btn {
+    width: 64px;
+    font-size: 32px;
+    border: none;
+    height: 64px;
+    position: fixed;
+    border-radius: 15%;
+    bottom: 32px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
+    background-color: #0055FF;
+    color: #fff;
+    cursor: not-allowed;
+}
