@@ -141,3 +141,29 @@ section {
 .link {
     font-size: 20px;
 }
+
+.bottom-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 290px;
+}
+
+.bottom__blocks {
+    display: flex;
+}
+
+.block {
+    max-width: 300px;
+    margin: 24px 56px;
+}
+
+.small__img {
+    position: relative;
+    left: 25%;
+}
+
+.first-header {
+    margin: 24px;
+}
