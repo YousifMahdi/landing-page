@@ -12,8 +12,15 @@ html {
     overflow-x: hidden;
 }
 
-nav, section {
+nav, section, footer {
     width: 100%;
+}
+
+footer {
+    position: relative;
+    top: 3500px;
+    background-color: #FFE8FF;
+    height: 300px;
 }
 
 section {
@@ -209,4 +216,32 @@ section {
     letter-spacing: 2px;
     text-align: center;
     margin: 24px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__header {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.footer__link {
+    color: #000000;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+hr {
+    margin: 24px 50px;
+    background-color: #240375;
+    line-height: 1px;
 }
