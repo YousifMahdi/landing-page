@@ -20,7 +20,7 @@ footer {
     position: relative;
     top: 3500px;
     background-color: #FFE8FF;
-    height: 300px;
+    height: 400px;
 }
 
 section {
@@ -226,22 +226,35 @@ section {
 .footer__links {
     display: flex;
     flex-direction: column;
+    margin: 24px 32px;
 }
 
 .footer__header {
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: bold;
+    margin-bottom: 16px;
 }
 
 .footer__link {
     color: #000000;
     text-decoration: none;
     cursor: not-allowed;
+    margin: 4px 0;
 }
 
 hr {
-    margin: 24px 50px;
+    margin: 0 100px;
     background-color: #240375;
     line-height: 1px;
+}
+
+.social__media {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+
+.social__icons {
+    display: flex;
 }
