@@ -288,4 +288,19 @@ hr {
         height: 370px;
         margin-top: 20px;
     }
+
+    .left-side {
+        max-width: 480px;
+        text-align: center;
+    }
+
+    .sec__container {
+        display: flex;
+        justify-content: space-between;
+        top: 100px;
+    }
+
+    .desc {
+        right: 45px;
+    }
 }
