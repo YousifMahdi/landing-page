@@ -269,3 +269,23 @@ hr {
     margin: 0 5px;
     cursor: not-allowed;
 }
+
+@media (max-width: 768px) {
+    .nav__container {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px;
+    }
+
+    .main-page {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main__img {
+        width: 450px;
+        height: 370px;
+        margin-top: 20px;
+    }
+}
