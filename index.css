@@ -90,7 +90,7 @@ section {
     margin-bottom: 30px;
 }
 
-.main__img {
+.main__img, .sec__img, .sanfran__img, .layouts__img, .thor__img {
     width: 680px;
     height: 510px;
 }
@@ -281,6 +281,8 @@ hr {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .main__img {
