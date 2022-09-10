@@ -153,7 +153,6 @@ section {
 
 .link {
     font-size: 20px;
-    cursor: not-allowed;
 }
 
 .bottom-sec {
@@ -291,6 +290,36 @@ hr {
         margin-top: 20px;
     }
 
+    .sec__img {
+        width: 400px;
+        height: 340px;
+        position: relative;
+        top: 70px;
+    }
+
+    .sanfran__img {
+        width: 450px;
+        height: 370px;
+        position: relative;
+        left: 20%;
+        top: 180px;
+    }
+
+    .layouts__img {
+        width: 400px;
+        height: 340px;
+        position: relative;
+        bottom: 200px;
+        right: 40px;
+    }
+
+    .thor__img {
+        width: 500px;
+        height: 340px;
+        position: relative;
+        top: 140px;
+    }
+
     .left-side {
         max-width: 480px;
         text-align: center;
@@ -303,6 +332,33 @@ hr {
     }
 
     .desc {
-        right: 45px;
+        right: 75px;
+        width: 250px;
+    }
+
+    .lefty {
+        margin-top: 50px;
+        right: 100px;
+    }
+
+    .lefty-thor {
+        position: relativez;
+        left: 300px;
+    }
+
+    .righty {
+        top: 600px;
+        left: 100px;
+    }
+
+    .page {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bottom-sec {
+        top: 450px;
     }
 }
