@@ -342,8 +342,10 @@ hr {
     }
 
     .lefty-thor {
-        position: relativez;
-        left: 300px;
+        position: relative;
+        top: 200px;
+        width: 450px;
+        right: 120px;
     }
 
     .righty {
