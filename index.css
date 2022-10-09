@@ -7,360 +7,42 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-nav, section, footer {
+nav, section {
     width: 100%;
-}
-
-footer {
-    position: relative;
-    top: 3500px;
-    background-color: #FFE8FF;
-    height: 400px;
-}
-
-section {
-    height: 100vh;
+    background-color: #710BF4;
 }
 
 .nav__container {
     display: flex;
     justify-content: space-between;
-    margin: 24px 108px;
+    padding: 36px 200px;
 }
 
-.logo {
-    width: 200px;
-    height: 50px;
-}
-
-.sign-in {
+.purchase__btn {
+    padding: 20px 40px;
     border: none;
-    background-color: #240375;
-    color: #fff;
-    border-radius: 30px;
+    background-color: #fff;
     font-weight: bold;
-    padding: 14px 28px;
-    cursor: not-allowed;
     transition: all 300ms ease;
 }
 
-.sign-in:hover {
-    background-color: #1700AE;
-}
-
-.main-page, .sec__container, .page {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    left: 40px;
-}
-
-.page {
-    top: 200px;
-}
-
-.left-side {
-    width: 521px;
-    position: relative;
-    top: 60px;
-}
-
-.first-header {
-    font-size: 24px;
-    color: #240375;
-    letter-spacing: 2px;
-    font-weight: 300;
-    margin: 24px;
-}
-
-.second-header {
-    font-size: 30px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    margin: 30px 0;
-}
-
-.para {
-    font-size: 22px;
-    margin-bottom: 30px;
-}
-
-.main__img, .sec__img, .sanfran__img, .layouts__img, .thor__img {
-    width: 680px;
-    height: 510px;
-}
-
-.chat__btn {
-    width: 48px;
-    font-size: 32px;
-    border: none;
-    height: 48px;
-    position: fixed;
-    border-radius: 15%;
-    bottom: 24px;
-    right: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
-    background-color: #0055FF;
+.purchase__btn:hover {
+    background-color: #2320FF;
     color: #fff;
-    cursor: not-allowed;
 }
 
 .sec__container {
-    margin-top: 64px;
-}
-
-.desc {
-    max-width: 400px;
-    position: relative;
-    right: 125px;
-}
-
-.desc__header {
-    font-size: 25px;
-    margin: 30px 0;
-    letter-spacing: 2px;
-}
-
-.desc__point {
-    font-size: 19px;
-    margin-bottom: 16px;
-}
-
-.lefty, .lefty-img {
-    width: 521px;
-    position: relative;
-    top: 140px;
-}
-
-.lefty-img {
-    right: 80px;
-}
-
-.righty {
-    width: 403px;
-    position: relative;
-    top: 200px;
-}
-
-.link {
-    font-size: 20px;
-}
-
-.bottom-sec {
+    height: 70vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;;
     position: relative;
-    top: 290px;
-}
-
-.bottom__blocks {
-    display: flex;
-}
-
-.block {
-    max-width: 300px;
-    margin: 24px 56px;
-}
-
-.small__img {
-    position: relative;
-    left: 25%;
-}
-
-.customer__review {
+    max-width: 690px;
     margin: 0 auto;
-    max-width: 620px;    
-}
-
-.pfp {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
-    position: relative;
-    left: 35%;
-    margin: 36px;
-}
-
-.bottom__customer--row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.name {
-    margin: 14px 0;
-    letter-spacing: 2px;
-}
-
-.gray {
-    color: #B7BBC2;
-}
-
-.lower-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 200px;
-}
-
-.lower-heading {
-    font-size: 32px;
-    letter-spacing: 2px;
+    top: 160px;
     text-align: center;
-    margin: 24px 0;
 }
 
-.footer__container {
-    display: flex;
-    justify-content: center;
-}
-
-.footer__links {
-    display: flex;
-    flex-direction: column;
-    margin: 24px 32px;
-}
-
-.footer__header {
-    font-size: 16px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.footer__link {
-    color: #000000;
-    text-decoration: none;
-    cursor: not-allowed;
-    margin: 4px 0;
-}
-
-hr {
-    margin: 0 100px;
-    background-color: #240375;
-    line-height: 1px;
-}
-
-.social__media {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 100px;
-}
-
-.social__icons {
-    display: flex;
-}
-
-.social__icon {
-    margin: 0 5px;
-    cursor: not-allowed;
-}
-
-@media (max-width: 768px) {
-    .nav__container {
-        display: flex;
-        justify-content: space-between;
-        margin: 16px;
-    }
-
-    .main-page {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
-    .main__img {
-        width: 450px;
-        height: 370px;
-        margin-top: 20px;
-    }
-
-    .sec__img {
-        width: 400px;
-        height: 340px;
-        position: relative;
-        top: 70px;
-    }
-
-    .sanfran__img {
-        width: 450px;
-        height: 370px;
-        position: relative;
-        left: 20%;
-        top: 180px;
-    }
-
-    .layouts__img {
-        width: 400px;
-        height: 340px;
-        position: relative;
-        bottom: 200px;
-        right: 40px;
-    }
-
-    .thor__img {
-        width: 500px;
-        height: 340px;
-        position: relative;
-        top: 140px;
-    }
-
-    .left-side {
-        max-width: 480px;
-        text-align: center;
-    }
-
-    .sec__container {
-        display: flex;
-        justify-content: space-between;
-        top: 100px;
-    }
-
-    .desc {
-        right: 75px;
-        width: 250px;
-    }
-
-    .lefty {
-        margin-top: 50px;
-        right: 100px;
-    }
-
-    .lefty-thor {
-        position: relative;
-        top: 200px;
-        width: 450px;
-        right: 120px;
-    }
-
-    .righty {
-        top: 600px;
-        left: 100px;
-    }
-
-    .page {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .bottom-sec {
-        top: 450px;
-    }
+.sec__heading {
+    font-size: 40px;
+    color: #fff;
 }
