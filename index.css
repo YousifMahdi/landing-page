@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 *{
     margin: 0;
@@ -38,11 +38,21 @@ nav, section {
     position: relative;
     max-width: 690px;
     margin: 0 auto;
-    top: 160px;
+    top: 140px;
     text-align: center;
 }
 
 .sec__heading {
     font-size: 40px;
+    font-weight: 700;
     color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+.sec__subheading {
+    color: #fff;
+    font-size: 16px;
+    line-height: 31px;
 }
