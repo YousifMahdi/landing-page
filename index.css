@@ -153,3 +153,10 @@ main {
 .home__link:hover {
     color: #3032D5;
 }
+
+.tech__block {
+    border-radius: 5px;
+    box-shadow: 0 2px 40px rgb(0 0 0 / 8%);;
+    padding: 45px 15px;
+    text-align: center;
+}
