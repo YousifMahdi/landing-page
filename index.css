@@ -11,12 +11,13 @@ nav, section {
     background-color: #6835AE;
 }
 
-nav, section, main {
+nav, section, main, footer {
     width: 100%;
 }
 
-main {
-    height: 100vh;
+footer {
+    background: rgb(175,0,244);
+    background: linear-gradient(90deg, rgba(175,0,244,1) 42%, rgba(164,0,131,1) 64%, rgba(121,9,105,1) 95%);
 }
 
 .nav__container {
@@ -177,4 +178,25 @@ main {
     bottom: 60px;
     font-size: 14px;
     font-weight: 700;
+}
+
+.footer__container {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__title {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer__special--text {
+font-family: "Playfair Display", Georgia, serif;
+font-style: italic;
 }
