@@ -221,7 +221,7 @@ font-style: italic;
 }
 
 @media (max-width: 768px) {
-    body {
+    body, nav {
         width: 100%;
     }
 
@@ -231,8 +231,7 @@ font-style: italic;
     }
 
     .purchase__btn--pos {
-        position: relative;
-        left: 110px;
+        margin-left: 120px;
     }
 
     .main__img--links {
@@ -246,5 +245,22 @@ font-style: italic;
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        width: 100%;
+    }
+
+    .purchase__btn--pos {
+        position: relative;
+        right: 240px;
     }
 }
